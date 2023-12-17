@@ -1,3 +1,5 @@
+**Check [wiki](https://github.com/ayushjain01/PP-Lab/wiki) for more.**
+
 # Part A - OpenMP Programs
 
 1. Write a program to sort an array on n elements using both sequential and parallel merge sort(using Section). Record the difference in execution time.
@@ -47,3 +49,6 @@
 11. Write an MPI program to demonstrate MPI_Reduce(MPI_MAX, MPI_MIN, MPI_SUM, MPI_PROD).
 
 12. Write an MPI program to demonstrate MPI_Allreduce (MPI_MAX, MPI_MIN, MPI_SUM, MPI_PROD).
+
+
+**Note - Sometimes you may be asked to send an array instead of an integer. Check [Part-B/extra-send-array.c](https://github.com/ayushjain01/PP-Lab/blob/main/Part-B/extra-send-array.c) to learn how**

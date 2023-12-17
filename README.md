@@ -18,9 +18,9 @@
 
 5.	Write a program to find the prime numbers from 1 to n employing parallel for directive. Record both serial and parallel execution times.
 
-6.	Parallel Vector Addition
+6.	Write a program to perform Parallel Vector Addition.
 
-7.	Write a program   calculate the sum of first 100 Numbers. (Using critical directive)
+7.	Write a program calculate the sum of first 100 Numbers. (Using critical directive)
 
 # Part B - MPI
 

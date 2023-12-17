@@ -3,8 +3,8 @@
 1. Write a program to sort an array on n elements using both sequential and parallel merge sort(using Section). Record the difference in execution time.
 2. Estimate the value of pi using:
 
-$$4\sum_{k=0}^{\infty} \frac{(-1)^k}{2k + 1}$$
-Parallelize the code by removing loop carried dependency and record both serial and parallel execution times.
+    $$4\sum_{k=0}^{\infty} \frac{(-1)^k}{2k + 1}$$
+    Parallelize the code by removing loop carried dependency and record both serial and parallel execution times.
 
 3. Write an OpenMP program that divides the Iterations into chunks containing 2 iterations, respectively (OMP_SCHEDULE=static,2). Its input should be the number of iterations, and its output should be which iterations of a parallelized for loop are executed by which thread. For example, if there are two threads and four iterations, the output might be the following:
     

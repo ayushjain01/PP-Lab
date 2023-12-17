@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <mpi.h>
 
-int main(int argc, char *argv[])
+int main()
 {
     int world_rank, world_size;
     int send_data, recv_data;

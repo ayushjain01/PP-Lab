@@ -17,7 +17,7 @@ int main()
         return 1;
     }
 
-    if (world_size == 0)
+    if (world_rank == 0)
     {
         send_data = 123;
         MPI_Send(&send_data, 1, MPI_INT, 1, 0, MPI_COMM_WORLD);
